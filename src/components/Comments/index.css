@@ -1,0 +1,110 @@
+/* Write your CSS here */
+.comments-bg {
+  background-size: cover;
+  padding-top: 40px;
+  margin-left: 200px;
+  margin-right: 230px;
+}
+
+.comments-top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.comments-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.comments-title {
+  color: #1e293b;
+  font-size: 48px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  align-self: flex-start;
+  padding-top: 20px;
+}
+
+.comments-para {
+  color: #475569;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  align-self: flex-start;
+}
+
+.text-input {
+  width: 280px;
+  height: 30px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px #cbd2d9 solid;
+  border-radius: 2px;
+  align-self: flex-start;
+}
+
+.text-area {
+  width: 280px;
+  height: 130px;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px #cbd2d9 solid;
+  border-radius: 3px;
+  align-self: flex-start;
+}
+
+.add-comment-button {
+  background-color: #0284c7;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 3px;
+  color: #ffffff;
+  border-width: 0px;
+  align-self: flex-start;
+  cursor: pointer;
+}
+
+.comments-image {
+  width: 450px;
+  padding-top: 80px;
+  padding-bottom: 0px;
+  align-self: flex-end;
+}
+
+.hr-line {
+  border: 1px #cbd2d9 solid;
+
+  margin-top: 25px;
+}
+
+.comments-count {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.count-box {
+  height: 20px;
+  width: 20px;
+  background-color: #0284c7;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.count {
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+}
+
+.comments-list {
+  list-style-type: none;
+  padding-left: 0px;
+}
